@@ -1,0 +1,15 @@
+{
+  "name": "erp-print-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Office print agent for the ERP's invoice print queue",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node agent.mjs",
+    "test": "node --test test/command.test.mjs"
+  }
+}
